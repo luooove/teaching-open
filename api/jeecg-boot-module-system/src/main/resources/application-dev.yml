@@ -192,9 +192,9 @@ jeecg :
     staticDomain: ??
   #七牛云存储配置
   qiniu:
-    accessKey: ??
-    secretKey: ??
-    bucketName: teaching
+    accessKey: aq89LOVw84Uw-Yix3x5LWkPleLEv9J9vtLDOz35M
+    secretKey: Vfyt6VS7Y34cm26s-5qvHPrHQ5cjg963mj4aR-MZ
+    bucketName: scratch123
     staticDomain: //qn.teaching.vip
     
   # ElasticSearch 设置

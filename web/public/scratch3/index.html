@@ -50,12 +50,12 @@
 
     window.scratchConfig = {
       logo: {
-        show: true, 
+        show: true,
         url: "/logo.png",
         handleClickLogo: () => {
           window.open("/")
         }
-      }, 
+      },
       stageArea: {
         scale: 1,
         width: 480,
@@ -284,7 +284,7 @@
     function upload2Qiniu(zip, key, fileName, observer) {
       var config = {
         useCdnDomain: true,
-        region: qiniu.region.z0,
+        region: qiniu.region.z2,
         disableStatisticsReport: true
       }
       var putExtra = {
